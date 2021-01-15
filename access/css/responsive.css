@@ -4,10 +4,18 @@
     .m-col-2 {
         width: 50%;
     }
+
+    .my-project {
+        min-height: 500px;
+    }
 }
 
 @media(max-width: 739px)  {
     .s-col-full {
         width: 100%;
+    }
+
+    .my-project {
+        min-height: 500px;
     }
 }
