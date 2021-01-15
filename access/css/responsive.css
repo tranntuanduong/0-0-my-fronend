@@ -1,0 +1,13 @@
+
+/* tablet  */
+@media(max-width: 1023px) and (min-width: 740px)  {
+    .m-col-2 {
+        width: 50%;
+    }
+}
+
+@media(max-width: 739px)  {
+    .s-col-full {
+        width: 100%;
+    }
+}

@@ -1,0 +1,89 @@
+/* reset css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.container {
+    padding: 20px;
+    background-color: #e6e6e7;
+    height: 100vh;
+}
+
+.my-project {
+    background-color: #ffffff;
+    border-radius: 5px;
+    min-height: 420px;
+    margin-top: 20px;
+    box-shadow: 1px 3px 9px 6px #cccccc;
+    position: relative;
+}
+
+.my-project:hover {
+    opacity: 0.9;
+    transition: all ease-in 0.3s;
+}
+
+
+
+.my-project__img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.my-project__content {
+    padding: 10px;
+   
+}
+
+.content__name {
+    font-size: 20px;
+}
+
+.description {
+    margin: 10px 0 10px 34px;
+    opacity: 0.7;
+    
+}
+
+.content__link {
+    display: block;
+    background-color: #70a5e0;
+    padding: 3px 5px;
+    width: 100px;
+    text-align: center;
+    color: #f7f7f7;
+    border-radius: 5px;
+    bottom: 0;
+    margin-bottom: 15px;
+    text-decoration: none;
+    position: absolute;
+   
+}
+
+.content__link  i {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.content__link:hover {
+    opacity: 0.7;
+    transform: translateY(-1px);
+}
+
