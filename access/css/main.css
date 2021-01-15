@@ -23,13 +23,17 @@
 .container {
     padding: 20px;
     background-color: #e6e6e7;
-    height: 100vh;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 .my-project {
     background-color: #ffffff;
     border-radius: 5px;
-    min-height: 420px;
     margin-top: 20px;
     box-shadow: 1px 3px 9px 6px #cccccc;
     position: relative;
@@ -45,6 +49,8 @@
 .my-project__img {
     width: 100%;
     border-radius: 5px;
+    min-height: 248px;
+    object-fit: cover;
 }
 
 .my-project__content {
@@ -62,19 +68,23 @@
     
 }
 
+.link {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
 .content__link {
     display: block;
     background-color: #70a5e0;
     padding: 3px 5px;
-    width: 100px;
+    width: 45%;
     text-align: center;
     color: #f7f7f7;
     border-radius: 5px;
     bottom: 0;
     margin-bottom: 15px;
     text-decoration: none;
-    position: absolute;
-   
 }
 
 .content__link  i {
@@ -87,3 +97,7 @@
     transform: translateY(-1px);
 }
 
+.footer {
+    background-color: #e6e6e7;
+    height: 300px;
+}
