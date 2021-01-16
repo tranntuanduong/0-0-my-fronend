@@ -44,12 +44,10 @@
     transition: all ease-in 0.3s;
 }
 
-
-
 .my-project__img {
     width: 100%;
     border-radius: 5px;
-    min-height: 248px;
+    min-height: 250px;
     object-fit: cover;
 }
 
